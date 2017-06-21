@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'RSR.apps.RsrConfig',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -113,6 +114,7 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+DATE_INPUT_FORMATS = '%m/%d/%Y'
 
 
 # Static files (CSS, JavaScript, Images)
